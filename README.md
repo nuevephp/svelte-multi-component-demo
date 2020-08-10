@@ -1,7 +1,3 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
 # svelte multi component demo
 
 In this project we compile components to use outside of the Svelte framework into a regular webpage.
