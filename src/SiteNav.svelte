@@ -1,5 +1,5 @@
 <script>
-    let valid = false;
+    export let valid = false;
 </script>
 
 <div class="site-nav">

@@ -17,6 +17,11 @@
 
 <body>
 	<div class="site-nav"></div>
+
+	<button class="valid-btn">
+		Is Valid
+	</button>
+
 	<footer></footer>
 
 	<script>
@@ -27,6 +32,11 @@
 		const footer = new Footer({
 			target: document.querySelector('footer')
 		});
+
+		document.querySelector('.valid-btn').addEventListener('click', () => {
+			console.log(siteNav.valid)
+			siteNav.valid = !siteNav.valid
+		})
 	</script>
 </body>
 </html>

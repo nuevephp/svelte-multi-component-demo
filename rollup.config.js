@@ -33,6 +33,7 @@ export default files.map(f => ({
 		svelte({
 			// enable run-time checks when not in production
 			dev: !production,
+			accessors: true,
 			// we'll extract any component CSS out into
 			// a separate file - better for performance
 			css: css => {
